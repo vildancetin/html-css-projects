@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: #e7eed0;
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+}
+h2{color: #1a6e62;}
+form{
+    width: 50%;
+    margin: auto;
+}
+label{
+    color: #1a6e62;
+}
+
+input,select{
+    background-color: #8cbdb5;
+    border:1px solid lightcyan;
+}
+.about {
+    
+    margin:20px auto;
+    border: 2px solid #426b65;
+    border-radius: 50px;
+    padding: 10px 0;
+    
+}
+
+.tour{
+    border: 2px solid #426b65;
+    border-radius: 50px;
+    padding: 10px 0px;
+}
+.discount{
+    border: 2px solid #426b65;
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 5px;
+}
+.terms{
+    border: 2px solid #426b65;
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 5px;
+}
+#button{
+    border-radius: 50px;
+    height: 50px;
+    cursor: pointer;
+}
