@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="http://www.clarusway.com/action_page.php">
+        <h2>
+            This is a form.
+        </h2>
+        Username: <br>
+        <input type="text" name="username">
+        <input type="button" value="Submit"> <br>
+        Password:<br>
+        <input type="password" name="password"><br>
+        Radio Button <br>
+        <input type="radio" name="gender" value="male" checked>Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        Check Box <br>
+        <input type="checkbox" name="days" value="monday">Monday<br>
+        <input type="checkbox" name="days" value="tuesday">Tuesday<br>
+        <input type="checkbox" name="days" value="wedensday">Wednesday<br>
+        <input type="checkbox" name="days" value="thursday">Thursday<br>
+        <input type="checkbox" name="days" value="friday">Friday<br>
+        Number:<br>
+        Age: <input type="number" name="age"> <br>
+        Reset: <br>
+        <input type="reset" value="Reset"><br>
+        Textarea:<br>
+        <textarea name="comments" cols="60" rows="10">Enter your comments here.</textarea>
+        <br>
+        Select:<br>
+        <select name="lessons">
+            <option value="java">Java</option>
+            <option value="html" selected>Html</option>
+            <option value="css">CSS</option>
+            <option value="js">Javascript</option>
+            <option value="git">Git</option>
+            <option value="maven">Maven</option>
+        </select>
+        <br>
+        Datalist:
+        <br>
+        <!-- list ve inputetex bağlanmiş oluyor -->
+        <input type="text" list="lessons" name="lesson">
+        <datalist id="lessons">
+            <option value="java">
+            <option value="html">
+            <option value="css">
+            <option value="js">
+            <option value="git">
+            <option value="maven">
+        </datalist>
+        <br>
+    </form>
+</body>
+</html>
