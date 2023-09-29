@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "GT America Standard";
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    color: white;
+}
+.abs-link{
+    margin: auto ;
+    margin-left: 30px;
+    font-size:1.2rem;
+}
+.abs-link a{
+    color: white;
+    text-decoration: none;  
+}
+.line{
+    border-right: 2px solid white;
+    padding-right: 5px;
+}
+.help:hover{
+    text-decoration: underline;
+}
+.sign-request{
+    margin: auto 20px;
+}
+.sign-request button{
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 5px;
+}
+.sign-request .request{
+    background-color: black;
+    border: 1px solid white;
+}
+.sign-request .signin{
+    background-color:
+    #4C5FD5 ;
+}
