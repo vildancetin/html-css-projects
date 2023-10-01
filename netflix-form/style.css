@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("img/background_image.jpg");
+    background-repeat: none;
+    
+}
+.container{
+    width: 90%;
+    margin: 3% auto;
+    padding: 1rem;
+    background-color:rgba(112, 95, 95, 0.438);
+}
+.title{
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+.title h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#red{
+    color: red;
+}
+.content{
+    color: white;
+    background-color: black;
+    width: 40%;
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    font-family: 'Young Serif', serif;;
+}
+input[type="text"],input[type="number"],
+input[type="email"]{
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-family: 'Young Serif', serif;;
+}
+select{
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-family: 'Young Serif', serif;;
+}
+.movie-type{
+    margin: 15px 0;
+}
+.gender{
+    margin: 15px 0;
+}
+input[type="checkbox"]{
+    margin: 3px 1px;
+}
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+#submit{
+    background-color: red;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 100px;
+    width: 30%;
+    margin-left: 35%;
+    font-size: 1.2rem;
+}
+#submit:hover{
+    cursor: pointer;
+    outline: 4px solid white;
+}
