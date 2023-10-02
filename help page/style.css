@@ -27,6 +27,24 @@ nav{
 .help:hover{
     text-decoration: underline;
 }
+
+.help-search{
+    margin-top: 3rem;
+    text-align: center;
+    background-color:  #dadbf1;
+    margin-top: 0;
+
+}
+.help-search h2{
+    text-align: center;
+}
+.help-search input{
+    background-image: url(img/arrow-right-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 98% ; 
+
+}
+
 .sign-request{
     margin: auto 20px;
 }
