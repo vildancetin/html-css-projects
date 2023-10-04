@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* * general parallax class */
+.parallax{
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.7;
+}
+.parallax h2{
+    color: white;
+    background-color: #1f1d1d;
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.7rem;
+    line-height: 80px;
+    font-weight: 400;
+    padding: 1.5rem;
+    border: 1rem solid white;
+    outline: 0.5rem solid #A64CA6;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius:30px;
+    outline-style: inset;
+}
+/* * general paragraf class */
+.par{
+    text-align: center;
+    line-height: 29px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+}
+.par span{
+    font-weight: 700;
+}
+.par h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 2rem;
+}
+.par p{
+    font-weight: 400 ;
+    text-align:center;
+}
+/* ? PARALLAX 1 */
+.parallax-1{
+    background-image: url(img/bg.jpg);
+    height: 100vh;
+    position: relative;
+}
+.parallax-1 h2{
+    position: absolute;
+    top: 40%;
+    left: 35%;    
+}
+.par-light{
+    height: 45vh;
+    color:#4C4C4C;
+    margin: auto;
+}
+
+.par-light p{
+    padding:1rem 6rem;
+}
+/*  ? PARALLAX 2 */
+.parallax-2{
+    height: 80vh; 
+    background-image: url(img/bg2.jpg);
+}
+.parallax-2 img{
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left:35%; 
+}
+
+.par-dark{
+    background-color: #282E34;
+    height: 45vh;
+    color: white;
+    margin: auto;
+}
+
+.par-dark p{
+    padding:1rem 6rem;
+}
+/* ? PARALLAX 3 */
+.parallax-3{
+    background-image: url(img/bg3.jpg);
+    height: 80vh;  
+}
+.parallax-3 h2{  
+    position: absolute;
+    top: 40%;
+    left:25%; 
+    border: none;
+    outline-offset: 0.5rem;
+    line-height: 40px;
+}
+/* ? PARALLAX 4 */
+.parallax-4{
+    background-image: url(img/bg4.jpg);
+    height: 80vh;   
+}
+.parallax-4 h2{
+    position: absolute;
+    top: 40%;
+    left:32%; 
+    border: none;
+    outline-offset: 0.5rem;
+    line-height: 40px;
+}
+/* ? PARALLAX 5 */
+.parallax-5{
+    background-image: url(img/bg.jpg);
+    height: 100vh;   
+}
+.parallax-5 h2{
+    position: absolute;
+    top: 40%;
+    left:23%; 
+
+}
