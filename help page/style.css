@@ -3,7 +3,7 @@
     padding: 0;
     font-family: "GT America Standard";
 }
-
+/* ? ************* NAVBAR ************ */
 nav{
     background-color: black;
     display: flex;
@@ -24,27 +24,13 @@ nav{
     border-right: 2px solid white;
     padding-right: 5px;
 }
+.line:hover{
+    opacity: 0.9;;
+}
 .help:hover{
     text-decoration: underline;
 }
-
-.help-search{
-    margin-top: 3rem;
-    text-align: center;
-    background-color:  #dadbf1;
-    margin-top: 0;
-
-}
-.help-search h2{
-    text-align: center;
-}
-.help-search input{
-    background-image: url(img/arrow-right-solid.svg);
-    background-repeat: no-repeat;
-    background-position: 98% ; 
-
-}
-
+/* ? ******* SIGN BUTTONS ********* */
 .sign-request{
     margin: auto 20px;
 }
@@ -63,4 +49,125 @@ nav{
 .sign-request .signin{
     background-color:
     #4C5FD5 ;
+}
+
+.sign-request .signin:hover{
+    background-color: white;
+    color: #4C5FD5;
+    cursor: pointer;
+}
+.sign-request .request:hover{
+    cursor: pointer;
+}
+/* ? ********* SEARCHING AREA ************* */
+.help-search{
+    height: 55vh;
+    text-align: center;
+    background-color:  #dadbf1;
+    margin-top: 0;
+    position: relative;
+}
+.help-search h2{
+    text-align: center;
+    padding-top: 5rem;
+    line-height:120px ;
+    font-size: 5rem;
+    font-weight: 400;
+}
+.help-search input{
+    background-repeat: no-repeat;
+    padding:0 0.5rem;
+    width: 55%;
+    height: 8.5vh;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+.help-search i{
+    position: absolute;
+    top: 59%;
+    right: 23%;
+}
+.help-search input:hover{
+    border:3px solid #4C5FD5 ;
+}
+input[type="text"]:focus{
+    border: 3px solid #4C5FD5;
+
+}
+
+/* ****** CONTENT **********/
+.container{
+    width: 90%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content-part{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0;
+}
+.content-part img{
+    width: 100px;
+    height: 100px;
+}
+
+.content-part .text{
+    width: 40%; 
+}
+.content-part .text p{
+    font-size: 1.5rem;
+    color: #191a1b;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.content-part .text a {
+    font-size: 1.2rem;
+    color: #4C5FD5;
+    cursor: pointer;
+    text-decoration: none;
+}
+.content-part .text a:hover{
+    border-bottom: 3px solid #4C5FD5;
+}
+
+/* ****** FOOTER ******* */
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+footer{
+    background-color: #191a1b;
+    color: white;
+    line-height: 1.5;
+    
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.ft-title{
+    color:white ;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+.ft-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.ft-main div:nth-child(4) li:nth-child(4){
+    padding-top: 15%;
+}
+.ft-legal{
+    text-align: center;
 }
