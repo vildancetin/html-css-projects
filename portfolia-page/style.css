@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    background-color:#983351 ;
+}
+.head h1{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    gap: 2rem;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
