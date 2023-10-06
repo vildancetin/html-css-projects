@@ -9,19 +9,122 @@
     justify-content: center;
     padding: 1rem;
     background-color:#983351 ;
+    height: 30vh;
+    font-family: 'Lato', sans-serif;
 }
 .head h1{
     flex-basis: 100%;
     text-align: center;
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    color: #E498AF;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 10px 10px 8px #721330;
 }
 
 .list{
     display: flex;
     gap: 2rem;
+    margin-top: 0.5rem;
 }
 li{
     list-style-type: none;
 }
 li a{
     text-decoration: none;
+    color: #721330;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #E498AF;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+li a:hover{
+    background-color: white;
+}
+.about-me{
+    text-align: center;
+    background-color: #983351;
+    font-size: 2.5rem;
+    color: #E498AF;
+    padding: 1rem 20%;
+    text-shadow: 10px 10px 10px #721330;
+    font-weight: 700;
+}
+.content{
+    background-color: #E498AF;
+    color: #721330;
+}
+.content h2{
+    text-align: center;
+    font-size: 2rem;
+}
+footer{
+    background-color: #E498AF;
+   /* padding: 2rem; */
+   height: 90vh;
+}
+footer h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #721330;
+    
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.icons a{
+    color: #721330;
+}
+.icons a:hover{
+    color:#983351;
+    cursor:pointer;
+}
+.icons a i{
+    padding: 0.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem ;
+}
+form label{
+    font-size: 1.3rem;
+    color: #721330;
+}
+form input,textarea{
+    background-color: #983351;
+    font-size: 1.3rem;
+    border-radius:10px;
+    color: #E498AF;
+    padding: 0.6rem;
+    width: 40vw;
+    text-align: center;
+}
+form input::placeholder,textarea::placeholder{
+    color: #E498AF;
+}
+#sub{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+.up{
+    
+    text-decoration: none;
+    font-size: 2rem;
+    color: #E498AF;
+    background-color: #721330;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.up i{
+    padding-left: 5px;
 }
