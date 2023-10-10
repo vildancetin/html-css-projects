@@ -1,5 +1,5 @@
 # html-css-projects
-## portfolia page copy [Link](https://vildancetin.github.io/html-css-projects/portfolia-page/)
+## portfolia page [Link](https://vildancetin.github.io/html-css-projects/portfolia-page/)
 ![image](https://github.com/vildancetin/html-css-projects/assets/75564722/ca12ec25-fd23-437c-bb8d-c6bfe9ac2050)
 ## abstarct page copy [Link](https://vildancetin.github.io/html-css-projects/help-page/)
 ![image](https://github.com/vildancetin/html-css-projects/assets/75564722/9d415f3f-76c7-4e65-b112-eeaae39029ff)
