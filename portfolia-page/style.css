@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .head{
     display: flex;
     flex-wrap: wrap;
@@ -59,16 +60,30 @@ li a:hover{
 .content h2{
     text-align: center;
     font-size: 2rem;
+    padding: 1rem;
+}
+.content .img-sect{
+    text-align: center;
+
+}
+.content .img-sect a{
+    padding: 1rem;
+
+}
+.content .img-sect a img{  
+    width: 45%;
+    border:3px solid #721330;
+    box-shadow: 3px 3px 8px #983351;;
 }
 footer{
     background-color: #E498AF;
-   /* padding: 2rem; */
-   height: 90vh;
+    height: 90vh;
 }
 footer h2{
     text-align: center;
     font-size: 2rem;
     color: #721330;
+    padding: 1rem;
     
 }
 .icons{
@@ -124,7 +139,11 @@ form input::placeholder,textarea::placeholder{
     background-color: #721330;
     padding: 0.5rem;
     border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
 .up i{
     padding-left: 5px;
+
 }
