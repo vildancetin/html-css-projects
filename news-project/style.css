@@ -73,7 +73,6 @@ nav p{
     height: 50vh;
     box-shadow: 0px 5px 8px gray;
     margin: 1rem;
-
 }
 .sidebar a{
     color: #000000;
@@ -85,18 +84,20 @@ nav p{
     color:#000000;
     opacity: 50%;
 }   
-/* * MAIN */
-
-.main{
+/* * RIGHT SIDE */
+.right{
     width: 60%;
-    margin: 1rem;
-    box-shadow: 0px 5px 8px gray;
-
+    gap: 1rem;
 }
-/* * PARTICIPANTS */
-
+.right-in{
+    box-shadow: 0px 5px 8px gray;
+}
+.right-bottom{
+    box-shadow: 0px 5px 8px gray;
+    margin: 1rem 0;
+}
 .participants{
-    padding-bottom: 1rem ;
+    padding: 1rem 0;
 }
 .participants h4{
     color:#20889F ;
@@ -122,6 +123,7 @@ nav p{
     display: flex;
     gap: 1rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .part .text p{
     color: black;
@@ -133,35 +135,33 @@ nav p{
 /* * FOLLOWERS */
 
 .followers{
-    padding-bottom: 1rem ;
-    border: 1px solid red;
+    padding-bottom: 3rem ;
 }
 .followers h4{
     color:#20889F ;
     font-size: 1.3rem;
-    padding: 1rem;
+    padding: 1.5rem;
     font-weight: 600;
+
 }
 .follower-list{
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-    /* padding:1rem */
     justify-content: center;
+    align-items: center;
 }
 
 .follower{
     display: flex;
     justify-content: center;
-    gap: 1rem;
     width: 45%;
-    align-items: center;
-    padding-bottom: 1rem;
+    gap: 1rem;
 }
-.follower p{
+.follower .text p{
     font-weight: 600;
 }
-.follower span{
+.follower .text span{
     color: #20889F;
 }
 .follower img{
@@ -169,26 +169,31 @@ nav p{
     height: 85px;
     border: 10px solid #20889F;;
     border-radius: 10px;
-
 }
 /* * TOP-NEWS */
 .news-list{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-    flex: 100%;
+    padding-bottom: 3rem;
+    
 }
 .new{
     width: 45%;
-    
-}
-.new h5{
     text-align: center;
+    padding: 1rem 0;
+}
+
+.new img{
+    width: 100%;
 }
 .top-news{
-    border: 1px solid red;
-    margin-top: 1rem;
-    
+    margin: 1rem; 
+}
+.right-bottom h4{
+    color:#20889F ;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 1.5rem 1rem;
 }
