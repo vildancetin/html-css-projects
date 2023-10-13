@@ -1,4 +1,6 @@
 # html-css-projects
+## news page [Link](https://vildancetin.github.io/html-css-projects/news-project/)
+![image](https://github.com/vildancetin/html-css-projects/assets/75564722/37b407d3-b6bd-4fd5-975a-17185d67ba0f)
 ## portfolia page [Link](https://vildancetin.github.io/html-css-projects/portfolia-page/)
 ![image](https://github.com/vildancetin/html-css-projects/assets/75564722/ca12ec25-fd23-437c-bb8d-c6bfe9ac2050)
 ## abstract page copy [Link](https://vildancetin.github.io/html-css-projects/help-page/)
