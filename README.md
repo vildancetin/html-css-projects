@@ -1,4 +1,6 @@
 # html-css-projects
+## bbc news page width grid [Link](https://vildancetin.github.io/html-css-projects/grid-news-project/)
+![bbc](https://github.com/vildancetin/html-css-projects/assets/75564722/51f016e9-0844-4cdd-bfd8-289e24ee90dd)
 ## news page [Link](https://vildancetin.github.io/html-css-projects/news-project/)
 ![image](https://github.com/vildancetin/html-css-projects/assets/75564722/37b407d3-b6bd-4fd5-975a-17185d67ba0f)
 ## portfolia page [Link](https://vildancetin.github.io/html-css-projects/portfolia-page/)
